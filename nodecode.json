@@ -1,0 +1,49 @@
+[
+    {
+        "id": "3978c3c6.af4dec",
+        "type": "ui_button",
+        "z": "a39e6717.d7b8d8",
+        "d": true,
+        "name": "",
+        "group": "a399c735.192878",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "sprinkle off",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "sprinkle off",
+        "payloadType": "str",
+        "topic": "",
+        "x": 600,
+        "y": 520,
+        "wires": [
+            [
+                "3d2a04aa.ac756c"
+            ]
+        ]
+    },
+    {
+        "id": "a399c735.192878",
+        "type": "ui_group",
+        "z": "",
+        "name": "main",
+        "tab": "46749284.5902fc",
+        "order": 1,
+        "disp": true,
+        "width": "4",
+        "collapse": false
+    },
+    {
+        "id": "46749284.5902fc",
+        "type": "ui_tab",
+        "z": "",
+        "name": "system",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]
